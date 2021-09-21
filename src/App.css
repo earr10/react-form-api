@@ -1,38 +1,142 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+.cabecera{
   text-align: center;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Form {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Form h3{
+  font-size: 32px;
+  text-align: left;
+  color: #dfe4ea;
+  margin-top: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box-form {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 400px;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  background: #3742fa;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.box-form input {
+  width: 100%;
+  padding: 10px 0;
+  color: #dfe4ea;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #dfe4ea;
+  outline: none;
+  background: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-form input::placeholder{
+  color: #dfe4ea;
+}
+
+.box-form .correo{
+  width: 60%;
+}
+
+.box-form select{
+  width: 40%;
+  padding: 5px 0;
+  border-radius: 10px;
+  background-color: #dfe4ea;
+  border: 0px;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box-form textarea {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  padding: 10px 0;
+  color: #dfe4ea;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #dfe4ea;
+  outline: none;
+  background: transparent;
+}
+
+.box-form textarea::placeholder{
+  color: #dfe4ea;
+}
+
+.box-form button{
+  border-radius: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #dfe4ea;
+  color: #2f3542;
+  border: 0px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.box-form button:hover{
+  background-color: #2ed573;
+  color: #2f3542;
+}
+
+.registros{
+  margin-left: 28%;
+}
+
+.registros ul{
+  text-align: center;
+  width: 60%;
+  background-color: #3742fa;
+  border-radius: 35px;
+  padding: 10px;
+}
+
+.registros ul h3{
+  font-size: 24px;
+  color: #dfe4ea;
+  font-family: 'Poppins', sans-serif;
+}
+
+.registros ul h3 .campo{
+  color: #2ed573;
+}
+
+.registros ul p{
+  font-family: 'Poppins', sans-serif;
+  color: #f1f2f6;
+}
+
+.registros button{
+  border-radius: 20px;
+  padding: 12px;
+  width: 63%;
+  background-color: #dfe4ea;
+  color: #2f3542;
+  border: 0px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.registros button:hover{
+  background-color: #2ed573;
+  color: #2f3542;
 }
